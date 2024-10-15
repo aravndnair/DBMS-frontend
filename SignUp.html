@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css"> <!-- Include your custom CSS file -->
+</head>
+<body>
+    <section class="login-container">
+        <div class="login-wrapper">
+            <img src="background.png" alt="" class="background-image" />
+            <div class="login-content">
+                <img src="main-icon.png" alt="Login illustration" class="login-image" />
+                <div class="login-form-container">
+                    <form class="login-form" id="login-form">
+                        <h1 class="welcome-text">Sign Up</h1>
+                        <div class="input-group">
+                            <label for="username" class="input-label">Username</label>
+                            <input type="text" id="username" class="input-field" placeholder="Enter your username" aria-label="Enter your username" />
+                        </div>
+                        <div class="input-group">
+                            <label for="email" class="input-label">Email</label>
+                            <input type="email" id="username" class="input-field" placeholder="Enter your username" aria-label="Enter your username" />
+                        </div>
+                        <div class="input-group">
+                            <div class="password-wrapper">
+                                <label for="password" class="input-label">Password</label>
+                                <input type="password" id="password" class="input-field" placeholder="Enter your password" aria-label="Enter your password" />
+                            </div>
+                        </div>
+                        <div class="remember-me">
+                            <input type="checkbox" id="remember" class="checkbox" />
+                            <label for="remember">I accept the Terms and Conditions</label>
+                        </div>
+                        <div class="login-button-wrapper">
+                            <button type="submit" class="login-button">
+                                <span class="login-text">Signup</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="login.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
